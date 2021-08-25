@@ -1,0 +1,43 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+}
+
+header {
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(90deg, #574ae8, #3ea1db);
+  color: white;
+}
+
+.cabecalho {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cabecalho h1 {
+  font-size: 24px;
+  padding-top: 41px;
+}
+
+.cabecalho span {
+  float: right;
+}
+
+.cabecalho input {
+    max-width: 855px;
+    width: 100%;
+    margin-top: 70px;
+    height: 65px;
+    background-color: rgba(248, 250, 250, 0.24);
+    padding-left: 50px;
+    color: black;
+}
+
+.cabecalho input:focus{
+    outline: unset;
+} 
