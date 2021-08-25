@@ -63,10 +63,11 @@ section ul li {
   list-style: none;
   background-color: white;
   height: 195px;
-  border: 2px solid #b6b6b6;
+  /* border: 2px solid #b6b6b6; */
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 50px;
+  box-shadow: 0 0 1em black;
 }
 
 section ul li h3 {
