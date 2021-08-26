@@ -1,0 +1,88 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+}
+
+body {
+  background: #dde0e2;
+}
+
+header {
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(90deg, #574ae8, #3ea1db);
+  color: white;
+}
+
+.cabecalho {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cabecalho h1 {
+  font-size: 24px;
+  padding-top: 41px;
+}
+
+.cabecalho span {
+  float: right;
+}
+
+.cabecalho input {
+  max-width: 850px;
+  width: 100%;
+  margin-top: 70px;
+  height: 65px;
+  background-color: rgba(248, 250, 250, 0.24);
+  padding-left: 50px;
+  color: #f3f5f7;
+  border-radius: 10px;
+}
+
+.cabecalho input:focus {
+  outline: unset;
+}
+
+.cabecalho input::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+section ul {
+  /* margin: 0 auto; */
+  margin: 100px auto 100px;
+  max-width: 900px;
+  width: 100%;
+}
+
+section ul li {
+  list-style: none;
+  background-color: white;
+  height: 195px;
+  /* border: 2px solid #b6b6b6; */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 1em black;
+}
+
+section ul li h3 {
+  color: #b6b6b6;
+}
+section ul li h3 span {
+  float: right;
+}
+
+section ul li h2 {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+section ul li p {
+  margin-top: 20px;
+  color: #b6b6b6;
+}
